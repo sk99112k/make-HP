@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  z-index: 1;
+}
+
+.header-bg {
+  background-color:rgb(0,0,0);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  z-index: 2; /* ヘッダーを最前面に表示 */
+}
+
+.header-name {
+  margin: 20px 20px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: auto;
+}
+
+.nav-list-item {
+  margin: 20px 30px 20px 20px;
+}
+
+.nav-list-item>a {
+  color: white;
+}
+
+.main-header-padding {
+  height: 60px; /* ヘッダーの高さと同じ高さの余白を追加 */
+}
