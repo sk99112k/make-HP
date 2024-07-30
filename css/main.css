@@ -2,25 +2,37 @@
   margin-top: 60px; /* ヘッダーの高さと同じ高さのマージンを追加 */
 }
 
-.img-center {
+section {
+  padding: 5rem 1.6rem;
+  display: block;
+}
+
+#concept .section-container {
+  height: 45;
+  gap: 2.4rem;
+  padding: 2.4rem 3.2rem;
+  margin: 5rem auto;
+}
+
+/* .img-center {
   text-align:center;
   padding-left: 15%;
   padding-right: 15%;
-}
+} */
 
-.main-bg-img {
+/* .main-bg-img {
   background-image: url(img/tennpura.jpeg);
   width: 100%;
   height: 450px;
   background-size: cover;
   background-position: center;
-}
+} */
 
-.concept, .menu {
+/* .concept, .menu {
   display: flex;
-}
+} */
 
-.concept {
+/* .concept {
   background-color: rgba(51,153,51,0.3);
 }
 
@@ -60,7 +72,7 @@
   height: 300px;
   background-size: cover;
   background-position: right;
-}
+} */
 
 .access {
   text-align: center;
