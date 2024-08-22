@@ -7,11 +7,24 @@ section {
   display: block;
 }
 
-#concept .section-container {
+#concept .section-container-card {
   height: 45;
   gap: 2.4rem;
   padding: 2.4rem 3.2rem;
   margin: 5rem auto;
+}
+
+.section-container-card {
+  display: flex;
+}
+
+.section-container-text {
+  text-align: center;
+  padding: 2.4rem;
+}
+
+.section-container-text .text{
+  border-top: 1.5px solid black;
 }
 
 /* .img-center {
