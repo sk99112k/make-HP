@@ -2,13 +2,8 @@
   margin-top: 60px; /* ヘッダーの高さと同じ高さのマージンを追加 */
 }
 
-section {
-  padding: 5rem 1.6rem;
-  display: block;
-}
-
 #concept .section-container-card {
-  height: 45;
+  height: 45; /* 単位を指定する必要がある (例: 45px) */
   gap: 2.4rem;
   padding: 2.4rem 3.2rem;
   margin: 5rem auto;
@@ -16,6 +11,8 @@ section {
 
 .section-container-card {
   display: flex;
+  /* max-width: max-content; */
+  width: 90%;
 }
 
 .section-container-text {
@@ -23,76 +20,21 @@ section {
   padding: 2.4rem;
 }
 
-.section-container-text .text{
+.text {
   border-top: 1.5px solid black;
 }
 
-/* .img-center {
-  text-align:center;
-  padding-left: 15%;
-  padding-right: 15%;
-} */
-
-/* .main-bg-img {
-  background-image: url(img/tennpura.jpeg);
-  width: 100%;
-  height: 450px;
-  background-size: cover;
-  background-position: center;
-} */
-
-/* .concept, .menu {
-  display: flex;
-} */
-
-/* .concept {
-  background-color: rgba(51,153,51,0.3);
+.text-area {
+  width: 80%;
 }
 
-.concept-bg {
-  background-image: url(img/midori.jpeg);
-  width: 30%;
-  height: 400px;
-  background-size: cover;
-  background-position: right;
-}
-
-.concept-text {
-  margin: auto;
+#menu {
   text-align: center;
+  padding: 20px;
 }
 
-.concept-text>h2 {
-  padding: 15px;
-}
-
-.menu {
-  background-color: rgba(255,102,50,0.3);
-}
-
-.menu-text {
-  margin: auto;
-  text-align: center;
-}
-
-.menu-text>h2 {
-  padding: 15px;
-}
-
-.menu-bg-img {
-  background-image: url(img/autumn.jpeg);
-  width: 30%;
-  height: 300px;
-  background-size: cover;
-  background-position: right;
-} */
-
-.access {
+#access {
   text-align: center;
   padding: 20px;
   background-color: rgba(169,169,169,0.5);
-}
-
-.access-title {
-  padding: 10px;
 }
